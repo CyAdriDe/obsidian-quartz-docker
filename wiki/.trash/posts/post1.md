@@ -1,1 +1,0 @@
-The team is composed by really beautiful people
