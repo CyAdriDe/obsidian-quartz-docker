@@ -1,0 +1,7 @@
+# Hidden files
+.DS_STORE
+.obsidian
+.trash
+
+# Vault directory
+wiki/*
