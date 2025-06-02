@@ -1,0 +1,11 @@
+services:
+  obsidian:
+    image: lscr.io/linuxserver/obsidian:latest
+    container_name: obsidian-docker
+    volumes:
+      - ./wiki:/config/wiki
+    ports:
+      - "3000:3000"
+      - "3002:3001"
+    shm_size: "1gb"
+    restart: unless-stopped

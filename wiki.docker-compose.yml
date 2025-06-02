@@ -1,0 +1,10 @@
+services:
+  quartz:
+    container_name: wiki-quartz
+    build: .
+    ports:
+      - "8080:8080"
+      - "8081:3001"
+    volumes:
+      - ./wiki/mttf:/usr/src/app/content
+    restart: no
