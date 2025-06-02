@@ -5,3 +5,4 @@
 
 # Vault directory
 wiki/*
+!wiki/README.md
